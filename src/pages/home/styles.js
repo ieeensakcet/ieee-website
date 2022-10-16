@@ -142,20 +142,19 @@ export default makeStyles((theme) => ({
     minWidth: "50%",
   },
   ourChapters: {
-    alignItems: "center",
-    width: "100%",
     display: "flex",
-    height: "100%",
+    gap: "30px",
     flexDirection: "column",
-    gap: "20px",
-    margin: "50px 0",
+    alignItems: "center",
+    margin: "30px 0",
   },
   ourChapters__header: {
     textShadow:
       "1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc",
   },
   chapter_cards: {
-    display: "flex",
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
     gap: "20px",
     justifyContent: "space-around",
     width: "100%",
@@ -167,8 +166,8 @@ export default makeStyles((theme) => ({
     height: "120px",
   },
   chapter_logo: {
-    maxHeight: "200px",
-    minWidth: "200px",
+    maxHeight: "100%",
+    minWidth: "100%",
     objectFit: "contain",
   },
   cards: {
