@@ -58,37 +58,11 @@ const OurTeam = () => {
           Executive Committee
         </Typography>
         <Carousel
-          autoPlay={true}
-          infiniteLoop={true}
           showThumbs={false}
-          interval={5000}
+          showStatus={false}
         >
           <div className={classes.Ourteam__group__team}>
             {excom.slice(0, 5).map((person) => (
-              <Profile
-                key={person.name}
-                name={person.name}
-                designation={person.designation}
-                linkedInURL={person.linkedInURL}
-                emailURL={person.emailURL}
-                image={person.image}
-              />
-            ))}
-          </div>
-          <div className={classes.Ourteam__group__team}>
-            {excom.slice(5, 11).map((person) => (
-              <Profile
-                key={person.name}
-                name={person.name}
-                designation={person.designation}
-                linkedInURL={person.linkedInURL}
-                emailURL={person.emailURL}
-                image={person.image}
-              />
-            ))}
-          </div>
-          <div className={classes.Ourteam__group__team}>
-            {excom.slice(11, 17).map((person) => (
               <Profile
                 key={person.name}
                 name={person.name}
@@ -106,10 +80,7 @@ const OurTeam = () => {
           Leadership Team
         </Typography>
         <Carousel
-          autoPlay={true}
-          infiniteLoop={true}
-          showThumbs={false}
-          interval={5000}
+          showStatus={false}
         >
           <div className={classes.Ourteam__group__team}>
             {leadershipTeam.slice(0, 6).map((person) => (
@@ -142,10 +113,7 @@ const OurTeam = () => {
           Publicity Team
         </Typography>
         <Carousel
-          autoPlay={true}
-          infiniteLoop={true}
-          showThumbs={false}
-          interval={5000}
+          showStatus={false}
         >
           <div className={classes.Ourteam__group__team}>
             {publicityTeam.slice(0, 6).map((person) => (
@@ -166,10 +134,7 @@ const OurTeam = () => {
           Tech Team
         </Typography>
         <Carousel
-          autoPlay={true}
-          infiniteLoop={true}
-          showThumbs={false}
-          interval={5000}
+          showStatus={false}
         >
           <div className={classes.Ourteam__group__team}>
             {techTeam.slice(0, 6).map((person) => (

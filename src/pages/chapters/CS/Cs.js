@@ -3,11 +3,11 @@ import React from "react";
 import useStyles from "./style";
 import { Link as RouterLink } from "react-router-dom";
 
-import mags from "../../../images/cs/mags.webp";
-import library from "../../../images/cs/library.webp";
-import price from "../../../images/cs/price.webp";
-import contacts from "../../../images/cs/contacts.webp";
-import community from "../../../images/cs/community.webp";
+import mags from "../../../images/cs/mags.png";
+import library from "../../../images/cs/library.png";
+import price from "../../../images/cs/price.png";
+import contacts from "../../../images/cs/contacts.png";
+import community from "../../../images/cs/community.png";
 
 import Profile from "../../../components/profile/profile";
 
@@ -21,7 +21,7 @@ const Cs = () => {
       <section className={classes.cs__groupPhoto}>
         <div className={classes.cs__groupPhoto__container}>
           <img
-            src="https://ik.imagekit.io/ieeensakcet/tr:w-1200/csGroup"
+            src= {require("../../../images/cs/csGroup.JPG").default}
             alt="grpPhoto"
             className={classes.cs__groupPhoto__container__image}
           />
@@ -78,59 +78,40 @@ const Cs = () => {
         </Typography>
         <div className={classes.cs__benefits__cards}>
           <Paper elevation={8} className={classes.cs__benefits__cards__paper}>
-            <img src={mags} alt="mags" />
+            <img src={mags} alt="mags" className={classes.benifits_logo} />
             <Typography variant="body1">
               Computer Magazine, our flagship publication (12 digital issues)
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.cs__benefits__cards__paper}>
-            <img src={library} alt="library" />
+            <img src={library} alt="library" className={classes.benifits_logo} />
             <Typography variant="body1">
               Computer Society Digital Library
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.cs__benefits__cards__paper}>
-            <img src={price} alt="price" />
+            <img src={price} alt="price"className={classes.benifits_logo} />
             <Typography variant="body1">
               Member pricing on optional magazines and transactions
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.cs__benefits__cards__paper}>
-            <img src={contacts} alt="contacts" />
+            <img src={contacts} alt="contacts" className={classes.benifits_logo}/>
             <Typography variant="body1">Make professional contacts</Typography>
           </Paper>
           <Paper elevation={8} className={classes.cs__benefits__cards__paper}>
-            <img src={community} alt="community" />
+            <img src={community} alt="community" className={classes.benifits_logo} />
             <Typography variant="body1">
               Access more than 40 technical communities.
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.cs__benefits__cards__paper}>
-            <img src={library} alt="library" />
+            <img src={library} alt="library" className={classes.benifits_logo} />
             <Typography variant="body1">
               Online professional programs with certifiaction for all.
             </Typography>
           </Paper>
         </div>
-      </section>
-      <section className={classes.cs__website}>
-        <Typography variant="h5">
-          To visit IEEE Hyderabad section CS Chapter website
-        </Typography>
-        <Link
-          href="https://ieeehyderabad.org/chapters-ag/computer-society"
-          target="_blank"
-          rel="noopener"
-        >
-          <Button
-            variant="contained"
-            color="primary"
-            size="large"
-            className={classes.Joinus__button}
-          >
-            Click Here
-          </Button>
-        </Link>
       </section>
       <section className={classes.cs__team}>
         <Typography variant="h4" className={classes.cs__team__text}>Meet The Team</Typography>
@@ -152,8 +133,8 @@ const Cs = () => {
         <Typography variant="h4">ADVISOR MESSAGE</Typography>
         <div className={classes.cs__message__content}>
           <div className={classes.cs__message__content__person}>
-            <Avatar className={classes.cs__message__content__person__image} src="https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/asma_mam_tbqioU5dh.png"/>
-            <Typography variant="h6">Ms Asma Mehdia</Typography>
+            <Avatar className={classes.cs__message__content__person__image} src=""/>
+            <Typography variant="h6">Ms. Syeda Farhath Begum</Typography>
           </div>
           <Typography
             variant="subtitle1"

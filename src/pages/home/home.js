@@ -305,7 +305,7 @@ function Home() {
           </Paper>
           <Paper elevation={12} className={classes.card}>
             <Typography variant="h3" className={classes.red}>
-              3
+              5
             </Typography>
             <Typography variant="body1">Chapters</Typography>
           </Paper>

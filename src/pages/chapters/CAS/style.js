@@ -145,6 +145,10 @@ export default makeStyles((theme) => ({
     justifyContent: "center",
     gap: "15px",
   },
+    benifits_logo: {
+    height: "100px",
+    width: "100px",
+  },
   cs__message__content__person__image: {
     width: "120px",
     height: "120px",

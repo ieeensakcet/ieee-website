@@ -100,6 +100,10 @@ export default makeStyles((theme) => ({
     gap: "50px",
     padding: "50px",
   },
+    benifits_logo: {
+    height: "100px",
+    width: "100px",
+  },
   cs__team: {
     width: "100%",
     display: "flex",

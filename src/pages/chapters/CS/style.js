@@ -75,6 +75,10 @@ export default makeStyles((theme) => ({
     backgroundColor: "#faa41a",
     width: "100%",
   },
+  benifits_logo: {
+    height: "100px",
+    width: "100px",
+  },
   cs__benefits__text: {
     borderBottom: "3px solid #000",
   },
