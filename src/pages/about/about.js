@@ -199,11 +199,11 @@ function About() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="h6">Program Committee</Typography>
+              <Typography variant="h6">Leadership Team</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Responsible for planning and execution of activities and events.
+              It acts as the HR of an organization and oversees the complete function of the Student Branch.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -215,12 +215,13 @@ function About() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="h6">Membership Committee</Typography>
+              <Typography variant="h6"> Publicity Team</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Responsible for recruiting new members, maintaining their data,
-                funds management and coordinating with existing members.
+              This team is responsible for managing social media, promotion of events and providing support to the existing societies. It is internally divided into 2 teams:<br />
+              1. Content Team - Responsible for generating content and deciding what goes up on our social media accounts and posters.<br />
+              2. Design Team - Responsible for designing the posters, flyers and social media posts
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -232,17 +233,11 @@ function About() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="h6">Social Media Committee</Typography>
+              <Typography variant="h6"> Tech Team</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                This committee consists of 3 teams: <br />
-                1. Content Team - Responsible for generating content and
-                deciding what goes up on our social media accounts and posters.{" "}
-                <br />
-                2. Design Team - Responsible for desiging the posters, flyers
-                and social media posts. <br />
-                3. Website Team - Manages Website and keep it updated
+              This team is responsible for managing the website and other technical aspects of the Student Branch.
               </Typography>
             </AccordionDetails>
           </Accordion>
