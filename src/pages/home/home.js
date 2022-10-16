@@ -18,7 +18,7 @@ function Home() {
         className={classes.container}
         disableGutters={true}
       >
-        <img src="https://ik.imagekit.io/ieeensakcet/tr:w-1200/IEEE_SB_grsC7EGvB.webp" alt="ieee_sb" className={classes.container__image} />
+        <img src={require("../../images/homePage/IeeeNsakcet.JPG").default} alt="ieee_sb" className={classes.container__image} />
         <div className={classes.header}>
           <div className={classes.header__text}>
             <Typography variant="h4">IEEE STUDENT BRANCH</Typography>
@@ -40,7 +40,7 @@ function Home() {
       </Container>
       <section className={classes.mainSection}>
         <section className={classes.mission}>
-          <Paper elevation={8} className={classes.paper}>
+          <Paper elevation={4} className={classes.paper}>
             <header className={classes.headers}>
               <Typography variant="h4">Mission</Typography>
               <Typography variant="subtitle1">
@@ -57,7 +57,7 @@ function Home() {
               />
             </div>
           </Paper>
-          <Paper elevation={8} className={classes.paper}>
+          <Paper elevation={4} className={classes.paper}>
             <div>
               <img
                 src={telescopeImage}
@@ -255,6 +255,22 @@ function Home() {
             <Paper elevation={12} className={classes.chapters}>
               <img
                 src={rasLogo}
+                loading="lazy"
+                alt="chapter_image"
+                className={classes.chapter_logo}
+              />
+            </Paper>
+                   <Paper elevation={12} className={classes.chapters}>
+              <img
+                src={require("../../images/homePage/IEEE-CAS_Logo.png").default}
+                loading="lazy"
+                alt="chapter_image"
+                className={classes.chapter_logo}
+              />
+            </Paper>
+            <Paper elevation={12} className={classes.chapters}>
+              <img
+                src={require("../../images/homePage/IEEE-SPS_Logo.png").default}
                 loading="lazy"
                 alt="chapter_image"
                 className={classes.chapter_logo}

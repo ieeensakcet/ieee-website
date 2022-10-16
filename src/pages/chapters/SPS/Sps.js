@@ -11,8 +11,8 @@ import community from "../../../images/cs/community.webp";
 
 import Profile from "../../../components/profile/profile";
 
-import casLogo from "../../../images/homePage/IEEE-CAS_Logo.png";
-import { cs } from "../../../data/profile";
+import spsLogo from "../../../images/homePage/IEEE-SPS_Logo.png";
+import { sps } from "../../../data/profile";
 
 const Cs = () => {
   const classes = useStyles();
@@ -29,7 +29,7 @@ const Cs = () => {
         <div className={classes.header}>
           <div className={classes.header__content}>
             <div className={classes.logo}>
-              <img src={casLogo} alt="csLogo" className={classes.logo__image} />
+              <img src={spsLogo} alt="csLogo" className={classes.logo__image} />
             </div>
             <div className={classes.header__text}>
               <Typography variant="h6">
@@ -113,7 +113,7 @@ const Cs = () => {
       <section className={classes.cs__team}>
         <Typography variant="h4" className={classes.cs__team__text}>Meet The Team</Typography>
         <div className={classes.cs__team__members}>
-          {cs.map((person) => (
+          {sps.map((person) => (
             <Profile 
               key = {person.name}
               name = {person.name}

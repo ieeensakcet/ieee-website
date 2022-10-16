@@ -12,7 +12,7 @@ import community from "../../../images/cs/community.webp";
 import Profile from "../../../components/profile/profile";
 
 import casLogo from "../../../images/homePage/IEEE-CAS_Logo.png";
-import { cs } from "../../../data/profile";
+import { cas } from "../../../data/profile";
 
 const Cs = () => {
   const classes = useStyles();
@@ -113,7 +113,7 @@ const Cs = () => {
       <section className={classes.cs__team}>
         <Typography variant="h4" className={classes.cs__team__text}>Meet The Team</Typography>
         <div className={classes.cs__team__members}>
-          {cs.map((person) => (
+          {cas.map((person) => (
             <Profile 
               key = {person.name}
               name = {person.name}
