@@ -5,16 +5,17 @@ import useStyles from "./style";
 
 const WorkshopCard = ({
   title,
-  Project1,
-  Project2,
-  description,
+  speakerName,
+  speakerDetails,
+  eventDescription,
   date,
   image,
+  
 }) => {
   const classes = useStyles();
 
   return (
-    <div className={classes.WorkshopCard}>
+    <div>
       <Card className={classes.card} raised={true}>
         <div className={classes.image__div}>
           <CardMedia className={classes.image} image={image} title="webinar" />
@@ -33,12 +34,11 @@ const WorkshopCard = ({
           </div>
           <div className={classes.speakerDetails}>
             <Typography variant="subtitle1" className={classes.name}>
-              What's in the workshop
+              {speakerName}
             </Typography>
-            <Typography variant="body2">{Project1}</Typography>
-            <Typography variant="body2">{Project2}</Typography>
+            <Typography variant="body2">{speakerDetails}</Typography>
           </div>
-          <Typography variant="body2">{description}</Typography>
+          <Typography variant="body2">{eventDescription}</Typography>
         </CardContent>
       </Card>
     </div>

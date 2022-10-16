@@ -13,7 +13,7 @@ import CreateCompetition from "../../../components/competitionCard/CreateCompeti
 const Competitions = () => {
   const classes = useStyles();
 
-  const [competitions, loading, error] = useCollection(db.collection('competitions'))
+  const [competitions, loading, error] = useCollection(db.collection('competitions').orderBy("timestamp", "desc"))
   const user = useSelector(selectUser);
 
   return (

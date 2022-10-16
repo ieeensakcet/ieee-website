@@ -3,7 +3,6 @@ import React from "react";
 import useStyles from "./style";
 
 import WorkshopCard from "../../../components/workshopCard/WorkshopCard";
-
 import CreateWorkshop from "../../../components/workshopCard/CreateWorkshop";
 
 import { useCollection } from "react-firebase-hooks/firestore";
@@ -14,7 +13,7 @@ import { selectUser } from "../../../features/userSlice";
 const Workshops = () => {
   const classes = useStyles();
 
-  const [workshops, loading, error] = useCollection(db.collection("workshops").orderBy("date", "asc"));
+  const [workshops, loading, error] = useCollection(db.collection("workshops").orderBy("timestamp", "desc"));
   const user = useSelector(selectUser);
 
   return (
@@ -24,15 +23,15 @@ const Workshops = () => {
       {loading && <span>Collection: Loading...</span>}
       <div className={classes.cards}>
       {workshops?.docs.map((info) => (
-            <WorkshopCard
-              key={info.id}
-              title={info.data().title}
-              Project1={info.data().Project1}
-              Project2={info.data().Project2}
-              description={info.data().description}
-              date={info.data().date}
-              image={info.data().image}
-            />
+               <WorkshopCard
+               key={info.id}
+               title={info.data().title}
+               speakerName={info.data().speakerName}
+               speakerDetails={info.data().speakerDetails}
+               eventDescription={info.data().eventDescription}
+               date={info.data().date}
+               image={info.data().image}
+             />
           ))}
       </div>
     </div>

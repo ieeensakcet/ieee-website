@@ -26,7 +26,7 @@ const Webinars = () => {
   const classes = useStyles();
 
   const [events, loading, error] = useCollection(
-    db.collection("events").orderBy("date", "asc")
+    db.collection("events").orderBy("timestamp", "desc")
   );
   const user = useSelector(selectUser);
 

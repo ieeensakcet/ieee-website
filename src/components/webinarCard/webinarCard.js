@@ -9,6 +9,7 @@ const WebinarCard = ({
   eventDescription,
   date,
   image,
+  
 }) => {
   const classes = useStyles();
 
@@ -25,7 +26,7 @@ const WebinarCard = ({
             </Typography>
           </div>
           <div>
-            <Typography variant="subtitle1">Webinar On</Typography>
+            <Typography variant="subtitle1">Webinar/Seminar On</Typography>
             <Typography variant="h6" className={classes.title}>
               {title}
             </Typography>
