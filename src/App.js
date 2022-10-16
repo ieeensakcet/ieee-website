@@ -15,6 +15,8 @@ import Footer from "./components/footer/footer";
 import Cs from "./pages/chapters/CS/Cs";
 import Wie from "./pages/chapters/WIE/Wie";
 import Ras from "./pages/chapters/RAS/Ras";
+import Cas from "./pages/chapters/CAS/Cas";
+import Sps from "./pages/chapters/SPS/Sps";
 import Competitions from "./pages/events/competitions/Competitions";
 import Webinars from "./pages/events/webinars/Webinars";
 import Workshops from "./pages/events/workshops/Workshops";
@@ -69,6 +71,12 @@ function App() {
           </Route>
           <Route path="/ras">
             <Ras />
+          </Route>
+          <Route path="/cas">
+            <Cas />
+          </Route>
+          <Route path="/Sps">
+            <Sps />
           </Route>
           <Route path="/competitions">
             <Competitions />
