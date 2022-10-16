@@ -78,65 +78,40 @@ const Wie = () => {
           <Paper elevation={8} className={classes.wie__benefits__cards__paper}>
             <img src={email} alt="email" />
             <Typography variant="body1">
-              FEATURES OPPORTUNITIES TO NETWORK, VOLUNTEER, PARTICIPATE IN LOCAL
-              AND GLOBAL WIE ACTIVITIES
+              Features opportunities to network, volunteer, participate in local and global wie activities
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.wie__benefits__cards__paper}>
             <img src={medal} alt="medal" />
             <Typography variant="body1">
-              EEE PROGRAM RECOGNISES WIE MEMBERS AND GROUPS WHO HAVE MADE AN
-              OUTSTANDING CONTRIBUTION
+            IEEE program recognises wie members and groups who have made an outstanding contribution
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.wie__benefits__cards__paper}>
             <img src={tag} alt="tag" />
             <Typography variant="body1">
-              DISCOUNTED REGISTRATIONS TO THE ANNUAL IEEE-WIE INTERNATIONAL
-              LEADERSHIP CONFERENCES AND OTHER EVENTS.
+            Discounted registrations to the annual ieee-wie international leadership conferences and other events.
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.wie__benefits__cards__paper}>
             <img src={around} alt="around" />
             <Typography variant="body1">
-              IEEE PROVIDES GRANTS FOR IEEE-WIE MEMBERS TO ATTEND AND PRESENT AT
-              SPONSORED CONFERENCES AND EVENTS
+            IEEE provides grants for ieee-wie members to attend and present at sponsored conferences and events
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.wie__benefits__cards__paper}>
             <img src={help} alt="help" />
             <Typography variant="body1">
-              GET INVOLVED LOCALLY WITH AN IEEE-WIE AFFINITY GROUP DISCOVER AND
-              CONNECT WITH YOUR PEERS Volunteer
+            Get involved locally with an ieee-wie affinity group discover and connect with your peers volunteer
             </Typography>
           </Paper>
           <Paper elevation={8} className={classes.wie__benefits__cards__paper}>
             <img src={scholarship} alt="scholarship" />
             <Typography variant="body1">
-              IEEE IS PLEASED TO OFFER PRE-UNIVERSITY, UNDERGRADUATE AND
-              GRADUATE STUDENTS SCHOLARSHIPS.
+            IEEE is pleased to offer pre-university, undergraduate and graduate students scholarships.
             </Typography>
           </Paper>
         </div>
-      </section>
-      <section className={classes.wie__website}>
-        <Typography variant="h5">
-          To visit IEEE Hyderabad section WIE Chapter website
-        </Typography>
-        <Link className={classes.link}
-          href="https://ieeehyderabad.org/chapters-ag/women-in-engineering-wie"
-          target="_blank"
-          rel="noopener"
-        >
-          <Button
-            variant="contained"
-            color="primary"
-            size="large"
-            className={classes.Joinus__button}
-          >
-            Click Here
-          </Button>
-        </Link>
       </section>
       <section className={classes.wie__team}>
         <Typography variant="h4" className={classes.wie__team__text}>

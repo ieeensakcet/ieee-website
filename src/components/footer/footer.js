@@ -64,7 +64,7 @@ const Footer = () => {
                 <TwitterIcon />
               </Link>
               <Link
-                href="https://www.instagram.com/ieeensakcet/?igshid=1rorsll9o8e06"
+                href="https://www.instagram.com/ieeensakcet"
                 target="_blank"
                 rel="noopener"
                 color="inherit"
@@ -72,7 +72,7 @@ const Footer = () => {
               <InstagramIcon />
               </Link>
               <Link
-                href="https://www.linkedin.com/company/42773344/admin/"
+                href="https://in.linkedin.com/company/ieeensakcet"
                 target="_blank"
                 rel="noopener"
                 color="inherit"
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
           <div className={classes.copyright}>
             <Typography variant="body2">
-              Copyright ieeensakcet @2021 All rights reserved
+              Copyright ieeensakcet @2022 All rights reserved
             </Typography>
             <Typography variant="body2">
               <Link

@@ -77,7 +77,7 @@ export const leadershipTeam = [
         designation: 'GRAPHIC DESIGNER',
         linkedInURL: 'http://linkedin.com/in/omarhabeeb',
         emailURL: 'mailto:omarhabeeb@ieee.org',
-        image: "",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/hani.JPG",
     },
     {
         name: 'MEHMOOD SAMEER',
@@ -101,7 +101,7 @@ export const publicityTeam = [
         designation: 'DESIGN LEAD',
         linkedInURL: 'http://linkedin.com/in/omarhabeeb',
         emailURL: 'mailto:omarhabeeb@ieee.org',
-        image: "",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/hani.JPG",
     },
     {
         name: 'MEHMOOD SAMEER',
@@ -134,25 +134,25 @@ export const wie = [
         name: 'SALWA ASHFAQ',
         designation: 'VICE CHAIR',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/kounain.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/Salwa_Ashfaq.jpg",
     },
     {
         name: 'UMME AMMARA',
         designation: 'SECRETARY',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/zoya_DEqTVLFEn.webp",
+        image: "",
     },
     {
         name: 'SHAIK MASEERA',
         designation: 'WEBMASTER',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/hani.JPG",
+        image: "",
     },
     {
         name: 'MAHMOODA HAFSA',
         designation: 'Graphic Designer',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/hafsa.JPG",
+        image: "",
     },
 ]
 
@@ -161,37 +161,37 @@ export const ras = [
         name: 'QAMAR BEGUM',
         designation: 'CHAIR',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/haq.JPG",
+        image: "",
     },
     {
         name: 'NABIHA ABDUL RAHMAN',
         designation: 'VICE CHAIR',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/ali.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/nabiha.JPG",
     },
     {
         name: 'MEHANAZ KHANAM',
         designation: 'Secretary',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/nabiha.JPG",
+        image: "",
     },
     {
         name: 'SHAIK MASEERA',
         designation: 'Web Master',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/ibrahim.JPG",
+        image: "",
     },
     {
         name: 'SATTAR KHAN',
         designation: 'Treasurer',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/ALTAF_SHAIK_3DCUD_-OQ.jpg",
+        image: "",
     },
     {
         name: 'SUBHANA AYESHA SIDDIQUI',
         designation: 'Graphic Designer',
         linkedInURL: 'linkedIn url',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/Salwa_Ashfaq.jpg",
+        image: "",
     },
 ]
 
