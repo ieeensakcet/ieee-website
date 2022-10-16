@@ -271,13 +271,13 @@ function Home() {
         <div className={classes.cards}>
           <Paper elevation={12} className={classes.card}>
             <Typography variant="h3" className={classes.red}>
-              45+
+              80+
             </Typography>
             <Typography variant="body1">Student Members</Typography>
           </Paper>
           <Paper elevation={12} className={classes.card}>
             <Typography variant="h3" className={classes.red}>
-              40+
+              50+
             </Typography>
             <Typography variant="body1">Events</Typography>
           </Paper>
