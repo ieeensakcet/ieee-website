@@ -321,3 +321,42 @@ export const cas = [
         image: "",
     },
 ]
+
+export const sps = [
+    {
+        name: 'MUSAIF ALI',
+        designation: 'CHAIR',
+        linkedInURL: 'linkedIn url',
+        image: "",
+    },
+    {
+        name: 'MUZAFER HUSSAIN',
+        designation: 'VICE CHAIR',
+        linkedInURL: 'linkedIn url',
+        image: "",
+    },
+    {
+        name: 'ABDUL MALIK',
+        designation: 'SECRETARY',
+        linkedInURL: 'linkedIn url',
+        image: "",
+    },
+    {
+        name: 'SOUMYA',
+        designation: 'WEBMASTER',
+        linkedInURL: 'linkedIn url',
+        image: "",
+    },
+    {
+        name: 'MOHAMMED MOUAZ',
+        designation: 'Graphic Designer',
+        linkedInURL: 'linkedIn url',
+        image: "",
+    },
+    {
+        name: 'ABDUL KHADER',
+        designation: 'Treasurer',
+        linkedInURL: 'linkedIn url',
+        image: "",
+    },
+]
