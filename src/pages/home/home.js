@@ -236,6 +236,7 @@ function Home() {
             OUR CHAPTERS
           </Typography>
           <div className={classes.chapter_cards}>
+            <Link to={"/cs"}>
             <Paper elevation={12} className={classes.chapters}>
               <img
                 src={csLogo}
@@ -244,6 +245,8 @@ function Home() {
                 className={classes.chapter_logo}
               />
             </Paper>
+              </Link>
+              <Link to={"/wie"}>
             <Paper elevation={12} className={classes.chapters}>
               <img
                 src={wieLogo}
@@ -252,6 +255,8 @@ function Home() {
                 className={classes.chapter_logo}
               />
             </Paper>
+              </Link>
+              <Link to={"/ras"}>
             <Paper elevation={12} className={classes.chapters}>
               <img
                 src={rasLogo}
@@ -260,7 +265,9 @@ function Home() {
                 className={classes.chapter_logo}
               />
             </Paper>
-                   <Paper elevation={12} className={classes.chapters}>
+              </Link>
+              <Link to={"/cas"}>
+              <Paper elevation={12} className={classes.chapters}>
               <img
                 src={require("../../images/homePage/IEEE-CAS_Logo.png").default}
                 loading="lazy"
@@ -268,7 +275,9 @@ function Home() {
                 className={classes.chapter_logo}
               />
             </Paper>
-            <Paper elevation={12} className={classes.chapters}>
+            </Link>
+              <Link to={"/sps"}>
+              <Paper elevation={12} className={classes.chapters}>
               <img
                 src={require("../../images/homePage/IEEE-SPS_Logo.png").default}
                 loading="lazy"
@@ -276,6 +285,7 @@ function Home() {
                 className={classes.chapter_logo}
               />
             </Paper>
+            </Link>
           </div>
         </section>
       </section>
