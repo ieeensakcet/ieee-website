@@ -131,7 +131,7 @@ const Cs = () => {
         <div className={classes.cs__message__content}>
           <div className={classes.cs__message__content__person}>
             <Avatar className={classes.cs__message__content__person__image} src=""/>
-            <Typography variant="h6">Ms. Rehmath Unnisa</Typography>
+            <Typography variant="h6">Ms. Rahmath Unnisa</Typography>
           </div>
           <Typography
             variant="subtitle1"
