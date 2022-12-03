@@ -18,7 +18,7 @@ export const excom = [
         designation: 'SPS and CAS ADVISOR',
         linkedInURL: '',
         emailURL: 'mailto:rahmath_unnisa@ieee.org',
-        image: "",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Executive_Committee/tr:w-150/Rahmath_mam_20221203_BxJ7tVAzH.jpg",
     },
     {
         name: 'Ms. SYEDA FARHATH BEGUM',

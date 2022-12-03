@@ -129,7 +129,7 @@ const Cs = () => {
         <Typography variant="h4">ADVISOR MESSAGE</Typography>
         <div className={classes.cs__message__content}>
           <div className={classes.cs__message__content__person}>
-            <Avatar className={classes.cs__message__content__person__image} src=""/>
+            <Avatar className={classes.cs__message__content__person__image} src="https://ik.imagekit.io/ieeensakcet/profiles/Executive_Committee/tr:w-150/Rahmath_mam_20221203_BxJ7tVAzH.jpg"/>
             <Typography variant="h6">Ms. Rahmath Unissa</Typography>
           </div>
           <Typography
