@@ -138,7 +138,7 @@ const Cs = () => {
           >
             Joining IEEE is due to the fact that,you can have the smartest
             people in the world around you,but without collaboration the
-            technology is not going to evolve. As a member of CS, I find the
+            technology is not going to evolve. As a member of CAS, I find the
             membership invaluable source of information and conduit for growth.
             I believe for lasting contribution to a discipline, you really need
             to have an organization like IEEE behind you.
