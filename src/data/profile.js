@@ -42,11 +42,11 @@ export const leadershipTeam = [
         designation: 'CHAIR',
         linkedInURL: 'https://www.linkedin.com/in/nida-meher-84aa5a1a8',
         emailURL: 'mailto:nidameher@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/nida.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/nida_TgGbAvj-w",
     },
     {
         name: 'MOHAMMED MOHSIN',
-        designation: 'INTERIM VICE CHAIR',
+        designation: 'VICE CHAIR',
         linkedInURL: 'https://www.linkedin.com/in/thatceokid',
         emailURL: 'mailto:mohammedmohsin@ieee.org',
         image: "https://ik.imagekit.io/ieeensakcet/profiles/CS/tr:w-150/Mohsin_UfH_FAbGQ.JPG",
