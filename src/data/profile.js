@@ -49,21 +49,21 @@ export const leadershipTeam = [
         designation: 'VICE CHAIR',
         linkedInURL: 'https://www.linkedin.com/in/thatceokid',
         emailURL: 'mailto:mohammedmohsin@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/CS/tr:w-150/Mohsin_UfH_FAbGQ.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/mohsin_BkDa0R813c",
     },
     {
         name: 'SYEDA KOUNAIN FATIMA',
         designation: 'SECRETARY',
         linkedInURL: 'linkedIn url',
         emailURL: 'mailto:kounain@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Kounain_20IZW9OON.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Kounain_20IZW9OON",
     },
     {
         name: 'MOHD MUSTAFA AKRAM',
         designation: 'TREASURER',
         linkedInURL: 'https://linkedin.com/mustafamohd',
         emailURL: 'mailto:mustafaakram@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Akram_fwZyYbBCoW.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/akram_LQ8W_MAU7",
     },
     {
         name: 'SYED AFFAN',
@@ -77,21 +77,21 @@ export const leadershipTeam = [
         designation: 'GRAPHIC DESIGNER',
         linkedInURL: 'https://www.linkedin.com/in/sawdah-hani-b2919b1b4',
         emailURL: 'mailto:sawdahhani@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Hani__VFl2dUJS.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/hani_DjDYBDnns",
     },
     {
         name: 'MEHMOOD SAMEER',
         designation: 'Member',
         linkedInURL: 'https://www.linkedin.com/in/mehmood-sameer-112992214',
         emailURL: 'mailto:omarhabeeb@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Sameer_lkPbom2c.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/sameer_UEFRGkQAu",
     },
     {
         name: 'HEDAYATHULLAH IMAMUDDIN',
         designation: 'Member',
         linkedInURL: 'https://linkedin.com/in/hedayathullah-imamuddin',
         emailURL: 'mailto:hedayathullah@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Hedayath_kXglM09xN.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/Hedayath_kXglM09xN",
     },
 ]
 
@@ -101,14 +101,14 @@ export const publicityTeam = [
         designation: 'DESIGN LEAD',
         linkedInURL: 'https://www.linkedin.com/in/sawdah-hani-b2919b1b4',
         emailURL: 'mailto:sawdahhani@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/tr:w-150/hani.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/hani_DjDYBDnns",
     },
     {
         name: 'MEHMOOD SAMEER',
         designation: 'CONTENT LEAD',
         linkedInURL: 'https://www.linkedin.com/in/mehmood-sameer-112992214',
         emailURL: 'mailto:omarhabeeb@ieee.org',
-        image: "",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/sameer_UEFRGkQAu",
     },
 ]
 
@@ -211,7 +211,7 @@ export const cs = [
         designation: 'CHAIR',
         linkedInURL: 'https://www.linkedin.com/in/thatceokid/',
         emailURL: 'mailto:mohammedmohsin@ieee.org',
-        image: "https://ik.imagekit.io/ieeensakcet/profiles/CS/tr:w-150/Mohsin_UfH_FAbGQ.JPG",
+        image: "https://ik.imagekit.io/ieeensakcet/profiles/Leadership_Team/tr:w-150/mohsin_BkDa0R813c",
     },
     {
         name: 'MEHVISH FATIMA',
